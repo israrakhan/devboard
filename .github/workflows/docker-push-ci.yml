@@ -1,5 +1,6 @@
 #Goal: Build the image for devboard frontend and push to docker hub after linting the code.
-
+permissions:
+  contents: write
 name: CI
 on: 
   push: 
