@@ -31,6 +31,7 @@ jobs:
 
             - name: Deploy the containers with Docker Compose
               run: |
-                docker compose pull
                 docker compose down
+                docker image prune -af
+                docker compose pull
                 docker compose up -d
