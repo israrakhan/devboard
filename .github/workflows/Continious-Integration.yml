@@ -35,7 +35,7 @@ jobs:
       run: npm run test
 
   build-and-push:
-    needs: code-lint
+    needs: frontend
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Code
