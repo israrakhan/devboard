@@ -32,4 +32,5 @@ jobs:
             - name: Deploy the containers with Docker Compose
               run: |
                 docker compose pull
+                docker compose down
                 docker compose up -d
