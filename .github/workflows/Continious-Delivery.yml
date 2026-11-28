@@ -3,6 +3,7 @@
 
 name: Continious-Delivery
 on:
+    workflow_call:
 #   workflow_run:
 #     workflows: ["Continious-Integration"]
 #     types:
@@ -10,7 +11,7 @@ on:
 #     branches:
 #       - advance
 #   workflow_dispatch:
-    workflow_call:
+    
 
 jobs:
     deploy:
