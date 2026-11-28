@@ -93,7 +93,7 @@ jobs:
   
   deploy:
     needs: [frontend, backend]
-    uses: ./.github/workflows/cd.yml
+    uses: ./.github/workflows/Continious-Delivery.yml
     secrets: inherit
 
       
