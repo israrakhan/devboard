@@ -9,6 +9,7 @@ on:
       - completed
     branches:
       - advance
+  workflow_dispatch:
 
 jobs:
     deploy:
